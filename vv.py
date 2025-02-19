@@ -3,8 +3,7 @@ import json
 from PIL import Image
 import os
 import google.generativeai as genai
-from RAGFixit.database import database
-  
+
  
 st.set_page_config(page_title="benGPT", page_icon="image4.png", layout="centered", initial_sidebar_state="auto") # Srujan choose this "Dororo AI" name
 st.logo("image5.png", icon_image="image4.png")
