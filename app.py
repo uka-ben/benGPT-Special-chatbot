@@ -80,7 +80,7 @@ def ChatBot() -> None:
 
     # Load and display images
     image1 = Image.open("image3.png")
-    st.image(image1, use_column_width=True, width=300)
+    st.image(image1, use_container_width=True, width=300)
     st.subheader(" Ask Dororo AI anything ")
 
     sidebar()
@@ -137,7 +137,7 @@ def sidebar() -> None:
         """
     )
     image4 = Image.open("image1.png")
-    st.sidebar.image(image4, use_column_width=True)
+    st.sidebar.image(image4, use_container_width=True)
     
     st.sidebar.button("Learn More")
 
